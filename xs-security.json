@@ -1,15 +1,5 @@
 {
-  "xsappname": "Catalog",
-  "tenant-mode": "dedicated",
   "scopes": [
-    {
-      "name": "$XSAPPNAME.admin",
-      "description": "Admin access"
-    },
-    {
-      "name": "$XSAPPNAME.support",
-      "description": "Support access"
-    },
     {
       "name": "$XSAPPNAME.support",
       "description": "support"
@@ -19,21 +9,23 @@
       "description": "admin"
     }
   ],
+  "attributes": [],
   "role-templates": [
     {
-      "name": "admin",
-      "description": "Full access",
-      "scope-references": [
-        "$XSAPPNAME.admin"
-      ]
-    },
-    {
       "name": "support",
-      "description": "Read/create access",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.support"
-      ]
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "admin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.admin"
+      ],
+      "attribute-references": []
     }
-  ],
-  "attributes": []
+  ]
 }
