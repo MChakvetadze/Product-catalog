@@ -97,7 +97,7 @@ modules:
       no-source: true
     parameters:
       content:
-        instance:
+        subaccount:
           existing_destinations_policy: update
           destinations:
             - Name: Product_Catalog-1791380689715-html5-repository
