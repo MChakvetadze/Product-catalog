@@ -9,6 +9,14 @@
     {
       "name": "$XSAPPNAME.support",
       "description": "Support access"
+    },
+    {
+      "name": "$XSAPPNAME.support",
+      "description": "support"
+    },
+    {
+      "name": "$XSAPPNAME.admin",
+      "description": "admin"
     }
   ],
   "role-templates": [

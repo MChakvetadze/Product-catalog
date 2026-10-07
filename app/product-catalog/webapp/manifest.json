@@ -156,5 +156,9 @@
     "app": {
       "enableLazyLoading": true
     }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "Product_Catalog1791380689715.service"
   }
 }
